@@ -1,7 +1,4 @@
-function teste(){
-    alert("testeee")
-}
+import ReactDOM from "react-dom";
+import App from "./App";
 
-function teste2(){
-    
-}
+ReactDOM.render(<App />, document.querySelector(".root"));
