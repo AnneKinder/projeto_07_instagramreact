@@ -1,79 +1,11 @@
+import PostItem from "./PostItem"
+
 export default function Posts(){
-    return (
-        <div class="posts">
-        <div class="post">
-          <div class="topo">
-            <div class="usuario">
-              <img src="assets/img/meowed.svg" />
-              meowed
-            </div>
-            <div class="acoes">
-              <ion-icon name="ellipsis-horizontal"></ion-icon>
-            </div>
-          </div>
-
-          <div class="conteudo">
-            <img src="assets/img/gato-telefone.svg" />
-          </div>
-
-          <div class="fundo">
-            <div class="acoes">
-              <div>
-                <ion-icon name="heart-outline"></ion-icon>
-                <ion-icon name="chatbubble-outline"></ion-icon>
-                <ion-icon name="paper-plane-outline"></ion-icon>
-              </div>
-              <div>
-                <ion-icon name="bookmark-outline"></ion-icon>
-              </div>
-            </div>
-
-            <div class="curtidas">
-              <img src="assets/img/respondeai.svg" />
-              <div class="texto">
-                Curtido por <strong>respondeai</strong> e{" "}
-                <strong>outras 101.523 pessoas</strong>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="post">
-          <div class="topo">
-            <div class="usuario">
-              <img src="assets/img/barked.svg" />
-              barked
-            </div>
-            <div class="acoes">
-              <ion-icon name="ellipsis-horizontal"></ion-icon>
-            </div>
-          </div>
-
-          <div class="conteudo">
-            <img src="assets/img/dog.svg" />
-          </div>
-
-          <div class="fundo">
-            <div class="acoes">
-              <div>
-                <ion-icon name="heart-outline"></ion-icon>
-                <ion-icon name="chatbubble-outline"></ion-icon>
-                <ion-icon name="paper-plane-outline"></ion-icon>
-              </div>
-              <div>
-                <ion-icon name="bookmark-outline"></ion-icon>
-              </div>
-            </div>
-
-            <div class="curtidas">
-              <img src="assets/img/adorable_animals.svg" />
-              <div class="texto">
-                Curtido por <strong>adorable_animals</strong> e{" "}
-                <strong>outras 99.159 pessoas</strong>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    )
+  
+  return (
+    <div class="posts">
+      <PostItem icon="assets/img/meowed.svg" user="meowed" imgpost="assets/img/gato-telefone.svg" imguser2="assets/img/respondeai.svg" user2="respondeai" qtpessoas="101.523" />
+      <PostItem icon="assets/img/barked.svg" user="meobarked" imgpost="assets/img/dog.svg" imguser2="assets/img/adorable_animals.svg" user2="adorable_animals" qtpessoas="99.159" />
+    </div>
+  )
 }
