@@ -26,7 +26,6 @@ const postsJSX = posts.map(item=> <PostItem icon={item.icon} user={item.user} im
   return (
     <div class="posts">
       {postsJSX}
-      {postsJSX}
     </div>
   )
 }

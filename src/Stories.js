@@ -42,11 +42,6 @@ const storiesJSX = stories.map(item => <StoryItem url={item.url} user={item.user
   return (
     <div class ="stories">
       {storiesJSX}
-      {storiesJSX}     
-      {storiesJSX}
-      {storiesJSX}
-      {storiesJSX}
-      {storiesJSX}
 
         <div class="setinha">
           <ion-icon name="chevron-forward-circle"></ion-icon>
