@@ -1,11 +1,8 @@
+import UsuarioItem from "./UsuarioItem"
+
 export default function Usuario(){
     return(
-        <div class="usuario">
-        <img src="assets/img/catanacomics.svg" />
-        <div class="texto">
-          <strong>catanacomics</strong>
-          Catana
-        </div>
-      </div>
+      <UsuarioItem img="assets/img/catanacomics.svg" user="catanacomics" nome="Catana" />
     )
 }
+
